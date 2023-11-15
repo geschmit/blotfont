@@ -34,9 +34,9 @@ declare global {
         setAngle(theta:number):void
         right(theta:number):void
         left(theta:number):void
-        translate(from:Point,to:Point):void
+        translate(to:Point):void
         rotate(ang:number,org:Point):void
-        scale(factor:number,org:Point):void
+        scale(org?:Point):void
         fromSVG(svgData:string):void
         join(turt:Turtle):void
         iteratePath(fn:any):void

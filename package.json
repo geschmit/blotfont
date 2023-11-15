@@ -1,0 +1,16 @@
+{
+  "name": "blotfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "build": "esbuild --outfile=build.js --minify --bundle main.ts",
+    "build_nomin": "esbuild --outfile=build.js --bundle main.ts"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.19.5"
+  }
+}
