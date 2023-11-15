@@ -6,7 +6,6 @@
   "scripts": {
     "build": "esbuild --outfile=build.js --minify --bundle main.ts",
     "build_nomin": "esbuild --outfile=build.js --bundle main.ts"
-
   },
   "author": "",
   "license": "ISC",
