@@ -1,3 +1,7 @@
+/**
+* Demo code for drawing a poster w/ SVG imports
+*/
+
 import { DrawBezier, DrawText, Gridlines } from "./funcs"
 import { letters } from "./letters"
 
@@ -19,7 +23,7 @@ DrawText(`-> What is it?
 
 -> How do you get one?
 ****************************`,
-  [48, 665], 7);
+[48, 665], 7);
 DrawText(`
 The Blot is an experimental, DIY drawing machine, created by Hack Club 
 to inspire teens the digital art field. Although
@@ -43,6 +47,6 @@ piece of artwork to the Blot website!
 3. Build it!
     If your submission is accepted, Hack Club will
     ship you a kit with all the parts needed to make
-    your own drawing machine(a >$150 value!)`, [53, 616], 4.75)
-
+    your own drawing machine(a >$150 value!)`, 
+[53, 616], 4.75)
 DrawText(`drawn w/ blot by geschmit :3`, [780, 14], 3)
