@@ -7,7 +7,7 @@ In my case, I wanted an easy way to draw text- of which(as of writing), Blot's c
 ## How does it work?
 BlotFont was created in 3 steps - drawing, converting and processing.
 ### Step 1 - Draw the shapes
-For each of the letters Blot can write with, I first hand-graphed them out on graph paper in a 2x4 grid per each letter.
+For each of the letters Blot can write with, I first hand-graphed them out on graph paper in a 2x4 grid per each symbol:
 `todo: add img`
 
 ### Step 2 - Convert the shapes
@@ -16,7 +16,21 @@ Each letter had to be converted into either instruction code, bezier curve, or b
 ### Step 3 - Process the instructions
 The instruction parser functions like a virtual Blot- it processes inputs the same way as tossing it functions, which is more or less what is occuring. The converted instruction code is now easily understood by the plotter, which allows it to draw the previously graphed lines, curves and shapes.
 ```js
-const a = 2
+// Instructions for "p":
+// [sa$90,f$4,r$90,f$1,arc$180,1,f$1]
+//      |
+//      V
+
+const turtle = createTurtle()
+turtle.setAngle(90)
+turtle.forward(4)
+turtle.right(90)
+turtle.forward(1)
+turtle.arc(180,1)
+turtle.forward(1)
+
+// The drawing will be too small to see; the library asks for scaling as an argument when drawing.
+drawTurtles([turtle]) 
 ```
 
 ## What did you use for the letter inspiration?
