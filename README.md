@@ -1,3 +1,5 @@
+<img align="left" style="width:250px; padding-right:10px" src="./img/blotfont_logo.png"/>
+
 # BlotFont - Text for the Blot plotter
 
 ## What is this?
@@ -10,7 +12,8 @@ When I created this, I also employed the TypeScript ecosystem for typechecking a
 BlotFont was created in 3 steps - drawing, converting and processing.
 ### Step 1 - Draw the shapes
 For each of the letters Blot can write with, I first hand-graphed them out on graph paper in a 2x4 grid per each symbol:
-`todo: add img`
+
+![graphs](./img/graphs.png)
 
 ### Step 2 - Convert the shapes
 Each letter had to be converted into either instruction code, bezier curve, or both- this painstakingly was done with each individual character on the sheet, which took me around a combined 4-5 hours over 2 days.
@@ -37,8 +40,14 @@ drawTurtles([turtle])
 ```
 
 ## What did you use for the letter inspiration?
-Many of the symbols, especially the numbers were based off of rare Nixie tubes, including the IN-18, IN-2 and ZM1220. I have a fondness for these tubes, which are seldom in today's common media and really only often used now in clocks. By recreating these digits, I hope to drive their legacy a bit longer.
-`todo: add phot`
+Many of the symbols, especially the numbers were based off of rare Nixie tubes, including the IN-18, IN-2, and GR10J. In traditional factor of budget saving measures, several of the letters and numbers(see 2 & 5) utilize the same instruction set with very slight modifications.
+
+These photos are taken from [nixies.us](https://www.nixies.us/), which I have relied extensively upon for research of these wonderful amber illuminators.
+
+![in16 number 2](./img/in16_2.jpeg)
+
+![in18 number 9](./img/in18_9.jpeg)
+
 
 ## How can I use this library?
 Install esbuild if you haven't already via `npm i -g esbuild` and edit `main.ts` to your preferences. There are two building methods when you want to run your code:
@@ -49,6 +58,6 @@ npm run build_nomin # for non-minified output
 Afterwards, `build.js` will contain the source needed for running your program.
 
 ## Current Issues
-- Some characters have issues and/or are missing instructions. (@ is missing and a has issues)
+- Some characters have issues and/or are missing instructions. (as of writing, @, & and ^ are currently missing)
 - Building produces a "use strict" error in the console.
-- > This can be solved by deleting the wrapper function esbuild provides when building by default.
+  > This can be solved by deleting the wrapper function esbuild provides when building by default.
