@@ -3,6 +3,7 @@
 ## What is this?
 This is a library I created for my submission bid for a Hack Club "Blot", 2D pen plotter. It is a programatically usable plotter, meaning you can write code to move the pen to draw shapes and other objects.
 In my case, I wanted an easy way to draw text- of which(as of writing), Blot's core code is unable to do. Enter BlotFont, a set of tools useful for converting pen movements and scaling them accordingly to how you wish to draw shapes, glyphs and other objects on the Blot.
+
 When I created this, I also employed the TypeScript ecosystem for typechecking and extended library support; by cloning `blot.d.ts` to your own project, you can also enable Blot globals in your own project.
 
 ## How does it work?
