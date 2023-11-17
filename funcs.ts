@@ -60,6 +60,8 @@ export const DrawText = (text:string,org:Point,scale:number = 100,spacing:Point 
                     org[0] + (xInd*spacing[0]*scale),
                     org[1] - (yInd*spacing[1]*scale),
                 ],scale)
+            xInd += 1
+            continue
         } else {
             switch (x) {
                 case "\r":
