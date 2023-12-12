@@ -84,8 +84,8 @@ free to tinker with it, but please express caution when
 doing so, so it doesn't explode! (the devs worked hard on 
 making sure this doesn't happen often.)
 
-Happy Drawing!`, [5.57, 46.83], 0.47)
+Happy Drawing!`, [4.22, 46.89], 0.47,[2.75,5.1])
 
 for (let i = 0; i <= 3; i++) {
-    DrawText("blot.hackclub.dev/assembly", [39.41, 40.58], 0.47)
+    DrawText("blot.hackclub.dev/assembly", [41.58, 39.70], 0.47,[2.75,5.1])
 }
