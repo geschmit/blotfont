@@ -1,6 +1,6 @@
 
-
 // esbuild --outfile=logo.js --bundle examples/logo.ts 
+
 import { DrawText } from "../funcs"
 
 setDocDimensions(1000,1000)
