@@ -22,7 +22,7 @@ Each letter had to be converted into either instruction code, bezier curve, or b
 The instruction parser functions like a virtual Blot- it processes inputs the same way as tossing it functions, which is more or less what is occuring. The converted instruction code is now easily understood by the plotter, which allows it to draw the previously graphed lines, curves and shapes.
 ```js
 // Instructions for "p":
-// [sa$90,f$4,r$90,f$1,arc$180,1,f$1]
+// [sa$90,f$4,r$90,f$1,arc$180:1,f$1]
 //      |
 //      V
 
