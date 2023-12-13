@@ -56,16 +56,20 @@ const DrawBox = (org:Point,size:Point):void => {
     drawTurtles([turtle])
 }
 
-DrawText("M5x35mm", [85, 61], 0.75)
+DrawText("M5x35", [85, 61], 0.75,[2.97, 1])
+DrawText("mm", [96.5, 61], 0.53,[2.97,1]);
 DrawBox([85, 55], [35, 5])
 
-DrawText("M5x30mm", [85, 46], 0.75)
+DrawText("M5x30", [85, 46], 0.75,[2.97, 1])
+DrawText("mm", [96.5, 46], 0.53,[2.97,1]);
 DrawBox([85,40],[20,5])
 
-DrawText("M5x10mm", [85, 31], 0.75)
+DrawText("M5x10", [85, 31], 0.75,[2.97, 1])
+DrawText("mm", [96.5, 31], 0.53,[2.97,1]);
 DrawBox([85,25],[10,5])
 
-DrawText("M3x10mm", [85, 16], 0.75)
+DrawText("M3x10", [85, 16], 0.75,[2.97, 1])
+DrawText("mm", [96.5, 16], 0.53,[2.97,1]);
 DrawBox([85,12],[10,3])
 
 
