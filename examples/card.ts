@@ -83,12 +83,14 @@ up to you what your drawing machine's limits are.
 -> Follow the build guide on                           - the
 lines on the side of this card match with yours in the kit!
 
--> Please note that Blot is an experimental device; you are 
-free to tinker with it, but please express caution when 
-doing so, so it doesn't explode! (the devs worked hard on 
-making sure this doesn't happen often.)
+-> Please keep in mind that the Blot is not a consumer
+product, and may occasionally perform in unexpected 
+and undesired manners.
 
-Happy Drawing!`, [4.22, 46.89], 0.47,[2.75,5.1])
+-> All Blot-related content(site, designs, models) can 
+be found at github.com/hackclub/blot.
+
+Happy Drawing`, [4.22, 46.89], 0.47,[2.75,5.1])
 
 for (let i = 0; i <= 3; i++) {
     DrawText("blot.hackclub.dev/assembly", [41.58, 39.70], 0.47,[2.75,5.1])
