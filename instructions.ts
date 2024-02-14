@@ -33,7 +33,7 @@ export const RunInstructions = (inst:string, org?:Point, scale:number=1):Point =
                 break;
             case "arc":
                 data = ParseCoords(args)
-                turtle.arc(data[0],data[1] * scale)
+                turtle.arc(-data[0],data[1] * scale)
                 break;
             case "jmp":
                 data = ParseCoords(args)
