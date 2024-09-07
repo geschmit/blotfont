@@ -1,3 +1,6 @@
+### Notice
+Blotfont has been deprecated in favor of the internal Blot Toolkit text generation functions. This repository will remain archived until further notice.
+
 <img align="left" style="width:250px; padding-right:10px" src="./img/blotfont_logo.png"/>
 
 # BlotFont - Text for the Blot plotter
